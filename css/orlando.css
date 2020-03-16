@@ -105,7 +105,7 @@ header #logotipo {
 	z-index: 3;
 }
 #banner h1.efeito {
-	color:red;
+	color:#5E2799;
 	font-size:12em;
 }
 #menu {
@@ -117,7 +117,7 @@ header #logotipo {
 }
 #menu li.search {
 	width: 182px;
-	transition-timing-function: cubic-bezier(1,-.91,.91,1);
+	transition-timing-function: cubic-bezier(1,.91,1);
 	transition-duration: 1s;
 }
 #menu li.search.ativo {
@@ -194,7 +194,7 @@ header #logotipo {
 	text-align: center;
 }
 #news hr {
-	border:#FDE192 solid 8px;
+	border:#FDE192 solid 4px;
 	width: 200px;
 	margin: 0 auto;
 }
@@ -248,7 +248,7 @@ header #logotipo {
 	text-align: center;
 }
 #call-to-action hr {
-	border:#FDE192 solid 8px;
+	border:#FDE192 solid 4px;
 	width: 200px;
 	margin: 0 auto;
 }
@@ -388,4 +388,5 @@ footer .list-socials i {
 }
 video {
 	width: 60%;
+	margin-top: 24px;
 }
